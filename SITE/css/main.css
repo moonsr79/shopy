@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;900&display=swap');
+
+/*  CSS RESET */
+h1,h2,h3,h4,h5,h6, ul{font-size:100%; font-weight: 300; line-height: 1; margin:0; padding: 0;}
+li{list-style: none;}
+img {vertical-align: top;}
+
+/* COMMON ELEMENTS - TYPOGRAPHY */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #495662;
+    line-height: 1;
+}
+a {
+    color: #495662;
+    text-decoration: none;
+}
+/* COMMON ELEMENTS - LINK, BUTTON, IMAGE, TITLES, SHADOW */
+.sprites {
+    background: url(../images/sprites.png) no-repeat;
+    display: block;
+    text-indent: -9999em;
+}
+
+/* HEADER */
+header {border-bottom: 1px solid #e6e8eb;}
+header .top_navigation {
+    border-bottom: 1px solid #e6e8eb;
+    padding: 20px 0;
+}
+.contact_list, .social_list {
+    display: flex;
+}
+.contact_list li {
+    margin-right: 20px;
+    display: flex;
+    font-size: 12px;
+    line-height: 16px;
+}
+.social_list li {margin-left: 20px;}
+.contact_list li span {margin-right: 10px;}
+.envelope {
+    width: 18px;
+    height: 16px;
+    background-position: 0 2px;
+}
+.phone {
+    width: 12px;
+    height: 16px;
+    background-position: -30px 2px;
+}
+.social_list li a {
+    font-size: 12px;
+    line-height: 16px;
+    color: #563540;
+}
+
+.main_navigation {padding:40px 0;}
+.gnb, .gnb ul {
+    display: flex; 
+}
+.logo {margin-right: 81px;}
+.logo a {
+    width: 118px;
+    height: 39px;
+    background: url(../images/shopy_log.png) no-repeat;
+    text-indent: -9999em;
+    display: block;
+}
+.gnb ul li {margin-right: 41px;}
+.gnb ul li a {line-height: 39px; color: #34404b}
+.gnb ul li a:hover {color: #ff5912;}
+
+.shopping_nav {display: flex;}
+.shopping_nav li {
+    margin-left: 34px;
+    display: flex;
+    align-items: center;
+}
+.search_btn {
+    width: 18px;
+    height: 18px;
+    background-position: -60px 0;
+}
+.mypage {
+    width: 21px;
+    height: 21px;
+    background-position: -90px 0;
+}
+.cart {
+    width: 24px;
+    height: 17px;
+    background-position: -120px 0;
+}
+.shopping_nav .sprites:hover {background-position-y: -30px;}
