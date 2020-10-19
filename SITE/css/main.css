@@ -241,6 +241,29 @@ header form input[type="submit"] {
 .new_arrivals_list .list_content {background: #ffffff; text-align: center;}
 .new_arrivals_list .list_content .default {padding: 30px 0;}
 .new_arrivals_list .list_content .hover {padding: 30px 0;}
+.new_arrivals_list .list_content .default h3{font-size: 18px; color: #34404b; font-weight: 500; margin: 28px 0;}
+.new_arrivals_list .list_content .default h4 {font-size: 18px; color: #ff5912; font-weight: 500;}
 
+.new_arrivals_list .list_content .hover p {font-size: 14px; color: #34404b; margin-bottom: 30px;}
+.new_arrivals_list .list_content .hover .color {word-spacing: -4px;}
+.new_arrivals_list .list_content .hover .color span {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    text-indent: -9999em;
+    display: inline-block;
+    margin: 0 2.5px;
+}
+.new_arrivals_list .list_content .hover .color .Red {background-color: red;}
+.new_arrivals_list .list_content .hover .color .DarkMagenta {background-color: DarkMagenta;}
+.new_arrivals_list .list_content .hover .color .LightSkyBlue {background-color: LightSkyBlue;}
+.new_arrivals_list .list_content .hover .color .LightGreen {background-color: LightGreen;}
 
-https://www.youtube.com/watch?v=3XCXNIKC0zI
+.new_arrivals_list .list_content .hover hr {width: 170px; margin: 0 auto 30px; border: none; border-bottom: 1px solid #f2f4f7;}
+
+.new_arrivals_list .list_content .hover ul {display: flex; justify-content: center;}
+.new_arrivals_list .list_content .hover ul li {margin: 0 15px;}
+.share {width: 19px; height: 17px; background-position: -150px 0;}
+.addcart {width: 22px; height: 19px; background-position: -180px 0;}
+.wishlist {width: 19px; height: 16px; background-position: -210px 0;}
+.new_arrivals_list .list_content .hover ul li a:hover {background-position-y: -30px;}
