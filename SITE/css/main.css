@@ -298,6 +298,8 @@ header form input[type="submit"] {
 .new_arrivals_list .list_content {
   background: #ffffff;
   text-align: center;
+  height: 100%;
+  transition: box-shadow 0.5s;
 }
 .new_arrivals_list .list_content .default {
   padding: 30px 0;
@@ -333,18 +335,10 @@ header form input[type="submit"] {
   display: inline-block;
   margin: 0 2.5px;
 }
-.new_arrivals_list .list_content .hover .color .Red {
-  background-color: red;
-}
-.new_arrivals_list .list_content .hover .color .DarkMagenta {
-  background-color: DarkMagenta;
-}
-.new_arrivals_list .list_content .hover .color .LightSkyBlue {
-  background-color: LightSkyBlue;
-}
-.new_arrivals_list .list_content .hover .color .LightGreen {
-  background-color: LightGreen;
-}
+.new_arrivals_list .list_content .hover .color .Red {background-color: red;}
+.new_arrivals_list .list_content .hover .color .DarkMagenta {background-color: DarkMagenta;}
+.new_arrivals_list .list_content .hover .color .LightSkyBlue {background-color: LightSkyBlue;}
+.new_arrivals_list .list_content .hover .color .LightGreen {background-color: LightGreen;}
 
 .new_arrivals_list .list_content .hover hr {
   width: 170px;
@@ -353,13 +347,8 @@ header form input[type="submit"] {
   border-bottom: 1px solid #f2f4f7;
 }
 
-.new_arrivals_list .list_content .hover ul {
-  display: flex;
-  justify-content: center;
-}
-.new_arrivals_list .list_content .hover ul li {
-  margin: 0 15px;
-}
+.new_arrivals_list .list_content .hover ul {display: flex; justify-content: center;}
+.new_arrivals_list .list_content .hover ul li {margin: 0 15px;}
 .share {
   width: 19px;
   height: 17px;
@@ -375,22 +364,13 @@ header form input[type="submit"] {
   height: 16px;
   background-position: -210px 0;
 }
-.new_arrivals_list .list_content .hover ul li a:hover {
-  background-position-y: -30px;
-}
+.new_arrivals_list .list_content .hover ul li a:hover {background-position-y: -30px;}
 
-.new_arrivals_list > li {
-  height: 365px;
-  overflow: hidden;
-}
-.new_arrivals_list > li .default img {
-  width: 60%;
-  transition: width 0.5s;
-}
-.new_arrivals_list > li:hover .default img {
-  width: 20%;
-  height: auto;
-}
-.new_arrivals_list > li:hover .default h4 {
-  display: none;
-}
+.new_arrivals_list .list_content {height: 365px; overflow: hidden;}
+.new_arrivals_list > li .default img {width: 60%; transition: width 0.5s;}
+
+.new_arrivals_list > li:hover .list_content {box-shadow: 0 5px 15px rgba(0,0,0,.1);}
+.new_arrivals_list > li:hover .default img {width: 25%; height: auto;}
+.new_arrivals_list > li:hover .default h4 {display: none;}
+.new_arrivals_list > li:hover .default {padding: 30px 0 0;}
+.new_arrivals_list > li:hover .hover {padding: 0 0 30px;}
